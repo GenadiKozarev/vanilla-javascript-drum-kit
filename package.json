@@ -5,7 +5,7 @@
   "source": "index.html",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build"
+    "build": "npx parcel build index.html --public-url ./"
   },
   "repository": {
     "type": "git",
