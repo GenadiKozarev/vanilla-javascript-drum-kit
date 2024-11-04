@@ -2,9 +2,10 @@
   "name": "vanilla-javascript-drum-kit",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html",
+  "source": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel",
+    "build": "parcel build"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/GenadiKozarev/vanilla-javascript-drum-kit/issues"
   },
-  "homepage": "https://github.com/GenadiKozarev/vanilla-javascript-drum-kit#readme"
+  "homepage": "https://github.com/GenadiKozarev/vanilla-javascript-drum-kit#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
 }
