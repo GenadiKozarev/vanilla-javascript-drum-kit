@@ -1,0 +1,55 @@
+html {
+    font-size: 10px;
+    background: url('./background.jpeg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: monospace, sans-serif;
+}
+
+.keys {
+    display: flex;
+    width: 80vw;
+    position: absolute;
+    top: 25vh;
+    left: 50%;
+    transform: translateX(-50%);
+    justify-content: space-between;
+}
+
+.key {
+    background: #00000066;
+    border: 0.4rem solid #000;
+    border-radius: 0.5rem;
+    flex: 1; /* allow keys to grow or shrink evenly */
+    margin: 0 0.5rem;
+    padding: 1rem 0.5rem;
+    font-size: 1.5vw; /* make font size responsive to viewport width */
+    max-width: 10rem; /* set max width to control size on large screens */
+    min-width: 3rem; /* set min width to keep keys readable */
+    text-align: center;
+    color: #ffc600;
+    text-shadow: 0 0 0.5rem #000;
+    transition: all 0.07s ease;
+}
+
+.playing {
+    border-color: #fff;
+    box-shadow: 0 0 2.5rem #fff;
+    transform: scale(1.1);
+}
+
+kbd {
+    display: block;
+    font-size: 4rem;
+}
+
+.sound {
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+    color: #fff;
+}

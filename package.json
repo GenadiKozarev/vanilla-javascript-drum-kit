@@ -1,0 +1,19 @@
+{
+  "name": "vanilla-javascript-drum-kit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GenadiKozarev/vanilla-javascript-drum-kit.git"
+  },
+  "author": "Genadi Kozarev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GenadiKozarev/vanilla-javascript-drum-kit/issues"
+  },
+  "homepage": "https://github.com/GenadiKozarev/vanilla-javascript-drum-kit#readme"
+}
